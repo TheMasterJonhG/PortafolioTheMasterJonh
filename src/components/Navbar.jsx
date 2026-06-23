@@ -1,14 +1,14 @@
 import { useEffect, useRef } from 'react';
-import logoLight from '../assets/logo-jgcs.png';
-import logoDark from '../assets/logo-jgcs-dark.png';
-import moonIcon from '../assets/moon_icon.png';
-import sunIcon from '../assets/sun_icon.png';
-import arrowIcon from '../assets/arrow-icon.png';
-import arrowIconDark from '../assets/arrow-icon-dark.png';
-import menuBlack from '../assets/menu-black.png';
-import menuWhite from '../assets/menu-white.png';
-import closeBlack from '../assets/close-black.png';
-import closeWhite from '../assets/close-white.png';
+import logoLight from '/assets/logo-jgcs.png';
+import logoDark from '/assets/logo-jgcs-dark.png';
+import moonIcon from '/assets/moon_icon.png';
+import sunIcon from '/assets/sun_icon.png';
+import arrowIcon from '/assets/arrow-icon.png';
+import arrowIconDark from '/assets/arrow-icon-dark.png';
+import menuBlack from '/assets/menu-black.png';
+import menuWhite from '/assets/menu-white.png';
+import closeBlack from '/assets/close-black.png';
+import closeWhite from '/assets/close-white.png';
 
 
 

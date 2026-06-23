@@ -1,8 +1,8 @@
 import { Youtube, Facebook, Instagram, Github } from "lucide-react";
-import logoLight from '../assets/logo-jgcs.png';
-import logoDark from '../assets/logo-jgcs-dark.png';
-import mailIconLight from '../assets/mail_icon.png';
-import mailIconDark from '../assets/mail_icon_dark.png';
+import logoLight from '/assets/logo-jgcs.png';
+import logoDark from '/assets/logo-jgcs-dark.png';
+import mailIconLight from '/assets/mail_icon.png';
+import mailIconDark from '/assets/mail_icon_dark.png';
 
 export default function Footer() {
   return (

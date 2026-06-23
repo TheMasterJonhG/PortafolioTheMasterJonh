@@ -1,6 +1,6 @@
 
 import { Code2, Layout, Globe } from "lucide-react";
-import serviceImg from 'assets/img-service.png';
+import serviceImg from '/assets/img-service.png';
 
 export default function Services() {
 
