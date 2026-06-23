@@ -1,4 +1,16 @@
 import { useEffect, useRef } from 'react';
+import logoLight from '/assets/logo-jgcs.png';
+import logoDark from '/assets/logo-jgcs-dark.png';
+import moonIcon from '/assets/moon_icon.png';
+import sunIcon from '/assets/sun_icon.png';
+import arrowIcon from '/assets/arrow-icon.png';
+import arrowIconDark from '/assets/arrow-icon-dark.png';
+import menuBlack from '/assets/menu-black.png';
+import menuWhite from '/assets/menu-white.png';
+import closeBlack from '/assets/close-black.png';
+import closeWhite from '/assets/close-white.png';
+
+
 
 export default function Navbar() {
   const sideMenuRef = useRef();
@@ -51,8 +63,8 @@ export default function Navbar() {
 
         {/* Logo */}
         <a href="#">
-          <img src="/assets/logo-jgcs.png" alt="Logo JGCS" className="w-28 cursor-pointer mr-14 dark:hidden" />
-          <img src="/assets/logo-jgcs-dark.png" alt="Logo JGCS" className="w-28 cursor-pointer mr-14 hidden dark:block" />
+          <img src={logoLight} alt="Logo JGCS" className="w-28 cursor-pointer mr-14 dark:hidden" />
+          <img src={logoDark} alt="Logo JGCS" className="w-28 cursor-pointer mr-14 hidden dark:block" />
         </a>
 
         {/* Menú principal */}
@@ -69,21 +81,21 @@ export default function Navbar() {
 
           {/* Cambiar tema */}
           <button onClick={toggleTheme}>
-            <img src="./assets/moon_icon.png" alt="" className="w-5 dark:hidden" />
-            <img src="./assets/sun_icon.png" alt="" className="w-5 hidden dark:block" />
+            <img src={moonIcon} alt="Cambiar a tema oscuro" className="w-5 dark:hidden" />
+            <img src={sunIcon} alt="Cambiar a tema claro" className="w-5 hidden dark:block" />
           </button>
 
           {/* Botón de contacto */}
           <a href="#contact" className="hidden lg:flex items-center gap-3 px-8 py-1.5 border border-gray-300 hover:bg-slate-100/70 dark:hover:bg-darkHover rounded-full ml-4 dark:border-white/30">
             Contactar
-            <img src="./assets/arrow-icon.png" alt="" className="w-3 dark:hidden" />
-            <img src="./assets/arrow-icon-dark.png" alt="" className="w-3 hidden dark:block" />
+            <img src={arrowIcon} alt="" className="w-3 dark:hidden" />
+            <img src={arrowIconDark} alt="" className="w-3 hidden dark:block" />
           </a>
 
           {/* Botón menú móvil */}
           <button className="block md:hidden ml-3" onClick={openMenu}>
-            <img src="./assets/menu-black.png" alt="" className="w-6 dark:hidden" />
-            <img src="./assets/menu-white.png" alt="" className="w-6 hidden dark:block" />
+            <img src={menuBlack} alt="Abrir menú" className="w-6 dark:hidden" />
+            <img src={menuWhite} alt="Abrir menú" className="w-6 hidden dark:block" />
           </button>
 
         </div>
@@ -91,8 +103,8 @@ export default function Navbar() {
         {/* Menú móvil */}
         <ul ref={sideMenuRef} className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 font-montserrat dark:bg-darkHover dark:text-white">
           <div className="absolute right-6 top-6" onClick={closeMenu}>
-            <img src="./assets/close-black.png" alt="" className="w-5 cursor-pointer dark:hidden" />
-            <img src="./assets/close-white.png" alt="" className="w-5 cursor-pointer hidden dark:block" />
+            <img src={closeBlack} alt="Cerrar menú" className="w-5 cursor-pointer dark:hidden" />
+            <img src={closeWhite} alt="Cerrar menú" className="w-5 cursor-pointer hidden dark:block" />
           </div>
           <li><a href="#top" onClick={closeMenu}>Inicio</a></li>
           <li><a href="#about" onClick={closeMenu}>Sobre mí</a></li>
