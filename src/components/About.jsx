@@ -54,7 +54,7 @@ export default function About() {
         {/* Imagen de perfil */}
         <div className="max-w-max mx-auto relative">
           <img
-            src="./assets/user-image.png"
+            src="./assets/user-image.jpeg"
             alt="Edgar Romero"
             className="w-64 sm:w-80 rounded-3xl max-w-none border-4 border-[#2563eb]/20 dark:border-[#2563eb]/40"
           />
@@ -72,13 +72,13 @@ export default function About() {
         {/* Descripción */}
         <div className="flex-1">
           <p className="mb-10 max-w-2xl text-[#1f2937]/80 dark:text-gray-300">
-            ¡Hola! Soy{" "}
+            ¡Hola! Soy{"Jonathan Campos"}
             <span className="text-[#2563eb] font-semibold">Tu Nombre</span>,
-            un apasionado desarrollador web con base en [Tu Ciudad/País]. Me especializo en la creación de aplicaciones web modernas y funcionales.
+            un apasionado desarrollador web con base en [CDMX/México]. Me especializo en la creación de aplicaciones web modernas y funcionales.
             Aquí puedes añadir más detalles sobre tu trayectoria, tus intereses y lo que te motiva en el mundo de la programación.
             Si tienes un proyecto principal o blog, puedes enlazarlo aquí, como este ejemplo:{" "}
             <a
-              href="https://github.com/tu-usuario"
+              href="https://github.com/TheMasterJonhG"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#2563eb] font-semibold hover:underline"
