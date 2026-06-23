@@ -1,33 +1,23 @@
 import React from "react";
 import { ExternalLink } from "lucide-react";
+import project1Img from 'assets/proyecto1.png';
+import project2Img from 'assets/proyecto2.png';
 
 export default function Work() {
 
   const work = [
     {
-      name: 'Mi Proyecto Increíble 1',
-      icon: './assets/proyecto1.png', // Reemplaza con la ruta a la imagen de tu proyecto
+      name: '1000 EMBARAZADAS DIJERON',
+      icon: project1Img,
       description: 'Desarrollo Front-end con React',
-      demo: 'https://link-a-tu-proyecto1.com',
+      demo: 'https://one000embarazadasdijeronmx.onrender.com/#/',
     },
     {
-      name: 'Mi Proyecto Asombroso 2',
-      icon: './assets/proyecto2.png', // Reemplaza con la ruta a la imagen de tu proyecto
+      name: 'CATALOGO DE PRODUCTOS TIENDA MASTER JONH',
+      icon: project2Img,
       description: 'Aplicación Full-Stack MERN',
-      demo: 'https://link-a-tu-proyecto2.com',
+      demo: 'https://github.com/TheMasterJonhG/TIENDA-ONLINE',
     },
-    {
-      name: 'Otro Proyecto Genial 3',
-      icon: './assets/proyecto3.png', // Reemplaza con la ruta a la imagen de tu proyecto
-      description: 'Diseño UI/UX y Desarrollo',
-      demo: 'https://link-a-tu-proyecto3.com',
-    },
-    {
-      name: 'Proyecto Final 4',
-      icon: './assets/proyecto4.png', // Reemplaza con la ruta a la imagen de tu proyecto
-      description: 'API REST con Node.js',
-      demo: 'https://link-a-tu-proyecto4.com',
-    }
   ];
 
   const [stopScroll, setStopScroll] = React.useState(false);
