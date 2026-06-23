@@ -13,19 +13,19 @@ export default function About() {
     {
       name: "Lenguajes",
       icon: <Code2 className="w-7 h-7 text-[#2563eb]" />, // Puedes cambiar el ícono si lo deseas
-      description: "Tus lenguajes principales: ej. HTML, CSS, JavaScript, Python...",
+      description: "HTML, CSS, JavaScript y frameworks modernos como React.",
     },
     {
       name: "Educación",
       icon: <GraduationCap className="w-7 h-7 text-[#2563eb]" />,
       description:
-        "Tu formación: ej. Título Universitario, cursos en línea, certificaciones...",
+        "Formación autodidacta y aprendizaje continuo a través de cursos en línea.",
     },
     {
       name: "Proyectos",
       icon: <FolderCode className="w-7 h-7 text-[#2563eb]" />,
       description:
-        "Describe tu experiencia: ej. 'Más de 10 proyectos personales y freelance'.",
+        "Experiencia práctica en proyectos personales y de código abierto.",
     },
   ];
 
@@ -55,7 +55,7 @@ export default function About() {
         <div className="max-w-max mx-auto relative">
           <img
             src="./assets/user-image.jpeg"
-            alt="Edgar Romero"
+            alt="Jonathan Campos"
             className="w-64 sm:w-80 rounded-3xl max-w-none border-4 border-[#2563eb]/20 dark:border-[#2563eb]/40"
           />
 
@@ -63,7 +63,7 @@ export default function About() {
             <img
               src="./assets/circular-text.png"
               alt=""
-              className="w-full animate-spin_slow dark:invert"
+              className="w-full animate-spin_slow dark:invert" 
             />
             <Atom className="w-8 h-8 absolute text-[#2563eb]" />
           </div>
@@ -72,11 +72,8 @@ export default function About() {
         {/* Descripción */}
         <div className="flex-1">
           <p className="mb-10 max-w-2xl text-[#1f2937]/80 dark:text-gray-300">
-            ¡Hola! Soy{"Jonathan Campos"}
-            <span className="text-[#2563eb] font-semibold">Tu Nombre</span>,
-            un apasionado desarrollador web con base en [CDMX/México]. Me especializo en la creación de aplicaciones web modernas y funcionales.
-            Aquí puedes añadir más detalles sobre tu trayectoria, tus intereses y lo que te motiva en el mundo de la programación.
-            Si tienes un proyecto principal o blog, puedes enlazarlo aquí, como este ejemplo:{" "}
+            ¡Hola! Soy <span className="text-[#2563eb] font-semibold">Jonathan Campos</span>,
+            un apasionado desarrollador web con sede en México. Me especializo en la creación de aplicaciones web modernas y funcionales, poniendo especial atención en la experiencia de usuario y el rendimiento. Mi objetivo es transformar ideas en soluciones digitales eficientes y atractivas. Puedes explorar mis proyectos en{" "}
             <a
               href="https://github.com/TheMasterJonhG"
               target="_blank"
@@ -85,7 +82,7 @@ export default function About() {
             >
               mi perfil de GitHub
             </a>
-            , donde puedes ver más de mi trabajo.
+            .
           </p>
 
           {/* Secciones de información */}
