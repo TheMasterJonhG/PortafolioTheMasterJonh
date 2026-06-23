@@ -5,8 +5,8 @@ export default function Footer() {
     <footer className="mt-20 text-[#1f2937] dark:text-white font-sans">
       {/* Logo */}
       <div className="text-center">
-        <img src="./assets/logo.png" alt="Logo" className="w-36 mx-auto mb-2 dark:hidden" />
-        <img src="./assets/logo_dark.png" alt="Logo" className="w-36 mx-auto mb-2 hidden dark:block" />
+        <img src="./assets/jgcs-logo.png" alt="Logo JGCS" className="w-36 mx-auto mb-2 dark:hidden" />
+        <img src="./assets/jgcs-logo-dark.png" alt="Logo JGCS" className="w-36 mx-auto mb-2 hidden dark:block" />
 
         {/* Email */}
         <div className="w-max flex items-center gap-2 mx-auto mb-4">

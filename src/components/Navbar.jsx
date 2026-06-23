@@ -51,8 +51,8 @@ export default function Navbar() {
 
         {/* Logo */}
         <a href="#">
-          <img src="./assets/logo.png" alt="Logo" className="w-28 cursor-pointer mr-14 dark:hidden" />
-          <img src="./assets/logo_dark.png" alt="Logo" className="w-28 cursor-pointer mr-14 hidden dark:block" />
+          <img src="./assets/jgcs-logo.png" alt="Logo JGCS" className="w-28 cursor-pointer mr-14 dark:hidden" />
+          <img src="./assets/jgcs-logo-dark.png" alt="Logo JGCS" className="w-28 cursor-pointer mr-14 hidden dark:block" />
         </a>
 
         {/* Menú principal */}
