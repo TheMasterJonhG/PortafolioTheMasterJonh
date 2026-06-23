@@ -65,7 +65,7 @@ Mensaje: ${message}`;
           className="py-2 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border dark:border-white/30 dark:hover:bg-darkHover"
         >
           Enviar ahora
-          <img src="./assets/right-arrow-white.png" alt="" className="w-4" />
+          <img src="/assets/right-arrow-white.png" alt="" className="w-4" />
         </button>
       </form>
     </div>

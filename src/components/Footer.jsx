@@ -1,21 +1,17 @@
 import { Youtube, Facebook, Instagram, Github } from "lucide-react";
-import logoLight from '../assets/logo.png';
-import logoDark from '../assets/logo_dark.png';
-import mailIconLight from '../assets/mail_icon.png';
-import mailIconDark from '../assets/mail_icon_dark.png';
 
 export default function Footer() {
   return (
     <footer className="mt-20 text-[#1f2937] dark:text-white font-sans">
       {/* Logo */}
       <div className="text-center">
-        <img src={logoLight} alt="Logo JGCS" className="w-36 mx-auto mb-2 dark:hidden" />
-        <img src={logoDark} alt="Logo JGCS" className="w-36 mx-auto mb-2 hidden dark:block" />
+        <img src="/assets/logo.png" alt="Logo JGCS" className="w-36 mx-auto mb-2 dark:hidden" />
+        <img src="/assets/logo_dark.png" alt="Logo JGCS" className="w-36 mx-auto mb-2 hidden dark:block" />
 
         {/* Email */}
         <div className="w-max flex items-center gap-2 mx-auto mb-4">
-          <img src={mailIconLight} alt="Correo" className="w-5 dark:hidden" />
-          <img src={mailIconDark} alt="Correo" className="w-5 hidden dark:block" />
+          <img src="/assets/mail_icon.png" alt="Correo" className="w-5 dark:hidden" />
+          <img src="/assets/mail_icon_dark.png" alt="Correo" className="w-5 hidden dark:block" />
           <a href="mailto:jonathangcs07@gmail.com" className="hover:underline">
             jonathangcs07@gmail.com
           </a>

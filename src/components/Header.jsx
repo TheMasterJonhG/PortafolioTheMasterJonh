@@ -4,7 +4,7 @@ export default function Header() {
 
             {/* Imagen de perfil */}
             <img 
-                src="./assets/user-image.jpeg" 
+                src="/assets/user-image.jpeg" 
                 alt="Jonathan Campos" 
                 className="rounded-full w-32 border-4 border-[#2563eb]" 
             />
@@ -12,7 +12,7 @@ export default function Header() {
             {/* Saludo */}
             <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 text-[#2563eb] dark:text-[#60a5fa]">
                 ¡Hola! Soy Jonathan Campos
-                <img src="./assets/hand-icon.png" alt="mano saludando" className="w-6 mb-1" />
+                <img src="/assets/hand-icon.png" alt="mano saludando" className="w-6 mb-1" />
             </h3>
 
             {/* Descripción principal */}
@@ -40,14 +40,14 @@ export default function Header() {
                     href="#contact"
                     className="px-10 py-2.5 border rounded-full bg-[#2563eb] text-white flex items-center gap-2 hover:bg-[#1d4ed8] transition dark:border-transparent"
                 >
-                    Contáctame <img src="./assets/right-arrow-white.png" alt="flecha derecha" className="w-4" />
+                    Contáctame <img src="/assets/right-arrow-white.png" alt="flecha derecha" className="w-4" />
                 </a>
 
                 <a
                     href="#work"
                     className="px-10 py-2.5 rounded-full border border-[#2563eb] text-[#2563eb] hover:bg-[#2563eb]/10 flex items-center gap-2 transition dark:text-white dark:border-white/25 dark:hover:bg-white/10"
                 >
-                    Ver portafolio <img src="./assets/right-arrow-bold.png" alt="flecha derecha" className="w-4 dark:invert" />
+                    Ver portafolio <img src="/assets/right-arrow-bold.png" alt="flecha derecha" className="w-4 dark:invert" />
                 </a>
             </div>
         </div>

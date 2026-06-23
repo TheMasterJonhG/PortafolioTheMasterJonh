@@ -1,6 +1,5 @@
 
 import { Code2, Layout, Globe } from "lucide-react";
-import serviceImg from '../assets/img-service.png';
 
 export default function Services() {
 
@@ -64,7 +63,7 @@ export default function Services() {
 
         {/* Imagen lateral */}
         <img
-          src={serviceImg}
+          src="/assets/img-service.png"
           alt="Servicios de desarrollo web"
           className="max-w-md w-full md:max-w-lg rounded-xl select-none"
         />

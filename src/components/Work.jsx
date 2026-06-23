@@ -1,20 +1,18 @@
 import React from "react";
 import { ExternalLink } from "lucide-react";
-import project1Img from '../assets/proyecto1.png';
-import project2Img from '../assets/proyecto2.png';
 
 export default function Work() {
 
   const work = [
     {
       name: '1000 EMBARAZADAS DIJERON',
-      icon: project1Img,
+      icon: '/assets/proyecto1.png',
       description: 'Desarrollo Front-end con React',
       demo: 'https://one000embarazadasdijeronmx.onrender.com/#/',
     },
     {
       name: 'CATALOGO DE PRODUCTOS TIENDA MASTER JONH',
-      icon: project2Img,
+      icon: '/assets/proyecto2.png',
       description: 'Aplicación Full-Stack MERN',
       demo: 'https://github.com/TheMasterJonhG/TIENDA-ONLINE',
     },

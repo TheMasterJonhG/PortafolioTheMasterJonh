@@ -54,14 +54,14 @@ export default function About() {
         {/* Imagen de perfil */}
         <div className="max-w-max mx-auto relative">
           <img
-            src="./assets/user-image.jpeg"
+            src="/assets/user-image.jpeg"
             alt="Jonathan Campos"
             className="w-64 sm:w-80 rounded-3xl max-w-none border-4 border-[#2563eb]/20 dark:border-[#2563eb]/40"
           />
 
           <div className="bg-white dark:bg-[#1f2937] w-1/2 aspect-square absolute right-0 bottom-0 rounded-full translate-x-1/4 translate-y-1/3 shadow-[0_4px_55px_rgba(37,99,235,0.2)] flex items-center justify-center">
             <img
-              src="./assets/circular-text.png"
+              src="/assets/circular-text.png"
               alt=""
               className="w-full animate-spin_slow dark:invert" 
             />
