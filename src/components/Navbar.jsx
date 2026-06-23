@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
-import logoLight from '/assets/logo-jgcs.png';
-import logoDark from '/assets/logo-jgcs-dark.png';
+import logoLight from '/assets/logo.png';
+import logoDark from '/assets/logo_dark.png';
 import moonIcon from '/assets/moon_icon.png';
 import sunIcon from '/assets/sun_icon.png';
 import arrowIcon from '/assets/arrow-icon.png';

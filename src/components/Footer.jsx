@@ -1,6 +1,6 @@
 import { Youtube, Facebook, Instagram, Github } from "lucide-react";
-import logoLight from '/assets/logo-jgcs.png';
-import logoDark from '/assets/logo-jgcs-dark.png';
+import logoLight from '/assets/logo.png';
+import logoDark from '/assets/logo_dark.png';
 import mailIconLight from '/assets/mail_icon.png';
 import mailIconDark from '/assets/mail_icon_dark.png';
 
