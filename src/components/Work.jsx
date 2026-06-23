@@ -1,7 +1,7 @@
 import React from "react";
 import { ExternalLink } from "lucide-react";
-import project1Img from '@/assets/proyecto1.png';
-import project2Img from '@/assets/proyecto2.png';
+import project1Img from '../assets/proyecto1.png';
+import project2Img from '../assets/proyecto2.png';
 
 export default function Work() {
 
