@@ -2,7 +2,7 @@ export default function Header() {
     return (
         <div
             id="top"
-            className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 text-[#1f2937] dark:text-white font-montserrat mb-20"
+            className="w-11/12 max-w-3xl text-center mx-auto min-h-screen flex flex-col items-center justify-center gap-4 text-[#1f2937] dark:text-white font-montserrat pt-28 mb-20"
         >
 
             {/* Imagen de perfil */}
