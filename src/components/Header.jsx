@@ -15,12 +15,12 @@ export default function Header() {
             {/* Saludo */}
             <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 text-[#2563eb] dark:text-[#60a5fa]">
                 ¡Hola! Soy Jonathan Campos
-                <img src="/assets/hand-icon.png" alt="mano saludando" className="w-6 mb-1" />
+                <img src="/assets/hand-icon.png" alt="mano saludando" className="w-6 mb-1 animate-waving-hand" />
             </h3>
 
             {/* Descripción principal */}
             <h1 className="text-3xl sm:text-6xl lg:text-[66px]">
-                Desarrollador web con sede en México.
+                Desarrollador Web Front-end.
             </h1>
 
             {/* Información adicional */}
