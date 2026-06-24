@@ -20,7 +20,7 @@ export default function Header() {
 
             {/* Descripción principal */}
             <h1 className="text-3xl sm:text-6xl lg:text-[66px]">
-                Programador con sede en México.
+                Desarrollador y Progar.
             </h1>
 
             {/* Información adicional */}
