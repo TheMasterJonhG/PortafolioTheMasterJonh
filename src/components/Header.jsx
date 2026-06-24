@@ -2,7 +2,7 @@ export default function Header() {
     return (
         <div
             id="top"
-            className="w-11/12 max-w-3xl text-center mx-auto min-h-screen flex flex-col items-center justify-center gap-4 text-[#1f2937] dark:text-white font-montserrat pt-28 mb-20"
+            className="w-11/12 max-w-3xl text-center mx-auto min-h-screen flex flex-col items-center justify-center gap-4 text-[#1f2937] dark:text-white font-montserrat pt-36 sm:pt-28 mb-20"
         >
 
             {/* Imagen de perfil */}
@@ -20,7 +20,7 @@ export default function Header() {
 
             {/* Descripción principal */}
             <h1 className="text-3xl sm:text-6xl lg:text-[66px]">
-                Desarrollador Web Front-end.
+                Programador con sede en México.
             </h1>
 
             {/* Información adicional */}
